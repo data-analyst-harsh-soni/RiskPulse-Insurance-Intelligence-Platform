@@ -9,6 +9,12 @@
 
 ---
 
+## 🏠 Platform Home
+
+![RiskPulse Home](Dashboard/Home.png)
+
+---
+
 ## 📌 Project Overview
 
 Insurance companies manage thousands of policies across multiple regions, risk categories, and customer demographics. The challenge is not collecting data — it's making that data **fast, visual, and useful** for analysts and decision-makers.
@@ -20,13 +26,16 @@ Insurance companies manage thousands of policies across multiple regions, risk c
 
 ---
 
-## 🖥️ Dashboard Preview
+## 🖥️ Dashboard Screenshots
 
-| Page | Description |
-|------|-------------|
-| 📊 Risk Overview Dashboard | KPIs, regional breakdowns, premium vs claim trends |
-| 🔍 Risk Deep Dive | Policy-level data table with heatmap risk scoring |
-| 📈 Risk Drivers & Behavior | Behavioral patterns, demographics, violation trends |
+### 📊 Page 1 — Risk Overview Dashboard
+![Risk Overview Dashboard](Dashboard/Dashboard%201.png)
+
+### 🔍 Page 2 — Risk Deep Dive
+![Risk Deep Dive](Dashboard/Dashboard%202.png)
+
+### 📈 Page 3 — Risk Drivers & Behavior Analysis
+![Risk Drivers and Behavior](Dashboard/Dashboard%203.png)
 
 ---
 
@@ -151,14 +160,33 @@ Insurance companies manage thousands of policies across multiple regions, risk c
 ## 📁 Project Structure
 
 ```
-RiskPulse-Insurance-Intelligence/
+RiskPulse-Insurance-Intelligence-Platform/
 │
 ├── 📂 Dashboard/
-│   ├── 01_Risk_Overview.png
-│   ├── 02_Risk_Deep_Dive.png
-│   └── 03_Risk_Drivers_Behavior.png
+│   ├── Dashboard 1.png          # Risk Overview Dashboard
+│   ├── Dashboard 2.png          # Risk Deep Dive
+│   ├── Dashboard 3.png          # Risk Drivers & Behavior
+│   └── Home.png                 # Platform home screen
+│
 └── README.md
 ```
+
+---
+
+## 🚀 How to Use
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/data-analyst-harsh-soni/RiskPulse-Insurance-Intelligence-Platform.git
+   ```
+
+2. **Open the `.pbix` file** in Power BI Desktop (free download from Microsoft)
+
+3. **Connect your data source** if using live data, or use the included sample CSV
+
+4. **Refresh the dataset** — all visuals will update automatically
+
+5. **Explore** using the filters at the top of each page and drill-through by right-clicking on charts
 
 ---
 
@@ -212,7 +240,7 @@ Total Premium = SUM(Insurance[TotalPremium])
 If you found this project useful or have feedback, feel free to connect:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/data-analyst-harsh-son)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/data-analyst-harsh-soni)
 
 > ⭐ **If you like this project, please give it a star — it helps others discover it!**
 
